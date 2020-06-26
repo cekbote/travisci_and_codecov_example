@@ -1,9 +1,6 @@
 import unittest
-import sys
 
-sys.path.append('..')
-
-from ..src.addition import add
+from travisci_and_codecov_example.src.addition import add
 
 
 class TestAddition(unittest.TestCase):
