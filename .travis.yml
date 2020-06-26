@@ -4,4 +4,4 @@ python:
 install:
   - pip install pytest
   - pip install dash
-script: python -m unittest tests/test_addition.py
+script: python -m unittest travisci_and_codecov_example/tests/test_addition.py
