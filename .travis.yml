@@ -4,4 +4,5 @@ python:
 install:
   - pip install pytest
   - pip install dash
-script: python -m unittest travisci_and_codecov_example/tests/test_addition.py
+  - pip install coverage
+script: coverage run -m unittest discover
