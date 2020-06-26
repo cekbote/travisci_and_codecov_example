@@ -3,4 +3,5 @@ python:
   - "3.6"
 install:
   - pip install pytest
+  - pip install dash
 script: pytest tests.test_addition.py
