@@ -1,6 +1,6 @@
 import unittest
 import sys
-from travisci_and_codecov_example.src.addition import add
+from travisci_and_codecov_example.src.addition import add, sub
 
 
 class TestAddition(unittest.TestCase):
