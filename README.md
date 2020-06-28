@@ -5,6 +5,7 @@
 ## Unit testing in Python Links
 - [Python Tutorial: Unit Testing Your Code with the unittest Module](https://www.youtube.com/watch?v=6tNS--WetLI&t=458s)
 - [Python Unit Testing – Structuring Your Project](https://www.patricksoftwareblog.com/python-unit-testing-structuring-your-project/)
+- [Python Unit Testing Official Documentation](https://docs.python.org/3.0/library/unittest.html)
 
 ## TravisCI Integration
 - [Building a Python Project (Official Documentation)](https://docs.travis-ci.com/user/languages/python/)
