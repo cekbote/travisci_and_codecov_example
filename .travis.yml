@@ -1,3 +1,5 @@
+services:
+  - elasticsearch
 language: python
 python:
   - "3.6"
@@ -5,6 +7,8 @@ install:
   - pip install pytest
   - pip install dash
   - pip install coverage
+before_script:
+  - sleep 10
 script: coverage run -m unittest travisci_and_codecov_example/tests/test_addition.py
 after_success:
   - bash <(curl -s https://codecov.io/bash)
