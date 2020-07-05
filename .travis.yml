@@ -6,6 +6,7 @@ python:
 install:
   - pip install pytest
   - pip install dash
+  - pip install elasticsearch
   - pip install coverage
 before_script:
   - sleep 10
